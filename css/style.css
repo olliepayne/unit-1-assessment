@@ -1,0 +1,40 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+#math-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#math-output {
+  font-weight: bold;
+  font-size: 50px;
+  width: 100%;
+}
+
+#user-input {
+  display: flex;
+}
+
+#math-input {
+  order: 2;
+  width: 50px;
+  height: auto;
+}
+
+#add-button {
+  order: 1;
+  width: 40px;
+  height: auto;
+  margin: 0px 5px;
+}
+
+#minus-button {
+  order: 3;
+  width: 40px;
+  height: auto;
+  margin: 0px 5px;
+}
